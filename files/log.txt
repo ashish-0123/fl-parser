@@ -1,0 +1,83 @@
+22:47:09,894 INFO Reading mappings file ..
+22:47:09,927 INFO Generating tag maps ..
+22:47:09,930 INFO Reading proto mappings file..
+22:47:09,962 INFO Starting flow logs analysis ..
+22:47:10,146 INFO Analyzing version 2 logs ..
+22:47:10,182 INFO Total errors: 0
+22:47:10,185 INFO Analyzing version 2 logs ..
+22:47:10,189 INFO Total errors: 0
+22:47:10,192 INFO Analyzing version 2 logs ..
+22:47:10,198 INFO Total errors: 0
+22:47:10,201 INFO Analyzing version 2 logs ..
+22:47:10,207 INFO Total errors: 0
+22:47:10,209 INFO Analyzing version 2 logs ..
+22:47:10,211 INFO Total errors: 0
+22:47:10,214 INFO Writing output file ..
+23:03:40,669 INFO Reading mappings file ..
+23:03:40,707 INFO Generating tag maps ..
+23:03:40,712 INFO Reading proto mappings file..
+23:03:41,3 INFO Starting flow logs analysis ..
+23:03:41,998 INFO Analyzing version 2 logs ..
+23:03:42,40 INFO Total errors: 0
+23:03:42,49 INFO Analyzing version 2 logs ..
+23:03:42,57 INFO Total errors: 0
+23:03:42,60 INFO Analyzing version 2 logs ..
+23:03:42,65 INFO Total errors: 0
+23:03:42,71 INFO Analyzing version 2 logs ..
+23:03:42,77 INFO Total errors: 0
+23:03:42,314 INFO Analyzing version 2 logs ..
+23:03:42,318 INFO Total errors: 0
+23:03:42,323 INFO Writing output file ..
+23:04:25,67 INFO Reading mappings file ..
+23:06:09,259 INFO Reading mappings file ..
+23:07:32,112 INFO Reading mappings file ..
+23:07:32,121 INFO Generating tag maps ..
+23:07:32,123 INFO Reading proto mappings file..
+23:07:32,395 INFO Starting flow logs analysis ..
+23:07:32,548 INFO Analyzing version 2 logs ..
+23:07:32,588 INFO Total errors: 0
+23:07:32,594 INFO Analyzing version 2 logs ..
+23:07:32,602 INFO Total errors: 0
+23:07:32,605 INFO Analyzing version 2 logs ..
+23:07:32,612 INFO Total errors: 0
+23:07:32,614 INFO Analyzing version 2 logs ..
+23:07:32,619 INFO Total errors: 0
+23:07:32,625 INFO Analyzing version 2 logs ..
+23:07:32,627 INFO Total errors: 0
+23:07:32,629 INFO Writing output file ..
+23:08:53,350 INFO Reading mappings file ..
+23:08:53,358 INFO Generating tag maps ..
+23:08:53,359 INFO Reading proto mappings file..
+23:09:41,993 INFO Reading mappings file ..
+23:09:42,2 INFO Generating tag maps ..
+23:09:42,5 INFO Reading proto mappings file..
+23:21:00,350 INFO Reading mappings file ..
+23:21:00,364 INFO Generating tag maps ..
+23:21:00,367 INFO Reading proto mappings file..
+23:21:00,403 INFO Starting flow logs analysis ..
+23:21:00,525 INFO Analyzing version 2 logs ..
+23:21:00,551 INFO Total errors: 0
+23:21:00,553 INFO Analyzing version 2 logs ..
+23:21:00,558 INFO Total errors: 0
+23:21:00,560 INFO Analyzing version 2 logs ..
+23:21:00,565 INFO Total errors: 0
+23:21:00,568 INFO Analyzing version 2 logs ..
+23:21:00,574 INFO Total errors: 0
+23:21:00,577 INFO Analyzing version 2 logs ..
+23:21:00,581 INFO Total errors: 0
+23:21:00,583 INFO Writing output file ..
+23:22:53,219 INFO Reading mappings file ..
+23:22:53,230 INFO Generating tag maps ..
+23:22:53,232 INFO Reading proto mappings file..
+23:22:53,263 INFO Starting flow logs analysis ..
+23:22:53,363 INFO Analyzing version 2 logs ..
+23:22:53,392 INFO Total errors: 0
+23:22:53,394 INFO Analyzing version 2 logs ..
+23:22:53,398 INFO Total errors: 0
+23:22:53,400 INFO Analyzing version 2 logs ..
+23:22:53,407 INFO Total errors: 0
+23:22:53,417 INFO Analyzing version 2 logs ..
+23:22:53,427 INFO Total errors: 0
+23:22:53,430 INFO Analyzing version 2 logs ..
+23:22:53,433 INFO Total errors: 0
+23:22:53,437 INFO Writing output file ..

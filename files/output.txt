@@ -1,0 +1,21 @@
+
+Tag Counts:
+Tag,Count
+Untagged 4022
+
+Port/Protocol Combination Counts:
+Port,Protocol,Count
+25 tcp 298
+110 tcp 298
+993 tcp 298
+143 tcp 298
+49153 tcp 364
+49154 tcp 274
+49155 tcp 274
+49156 tcp 274
+49157 tcp 274
+49158 tcp 274
+80 tcp 274
+1024 tcp 274
+443 tcp 274
+23 tcp 274

@@ -1,0 +1,51 @@
+## Requirements
+1. Requires Docker. (Tested on version 24.0.7.)
+
+## Assumptions
+1. Even though the program is extensible to handle log formats other than default (2), it is assumed that one file will contain only one log version.
+2. Since the offset of the interested fields are not known for custom logging formats, the analyzer function for non default version has not been implemented.
+
+## Design
+1. The program supports two ways to figure the protocol text (e.g. "tcp") for the protocol number (6).
+   File files/protocol-numbers-1.csv has been downloaded from https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml
+   To use this file provide the path of the .csv file in "proto_map_file" argument while creating the parser object.
+   In absence of this file the program uses python socket library.
+2. Even though the size of the flow log files is limited to 10 MB the program tries to read the logs in chunks of 1000 (configurable via a constant in the program). 
+3. The program uses multithreading to parallelize the a) reading of log line chunks and b) processing them, but uses only 1 worker thread.
+   See the comments inside the program for more details.
+4. Directory structure:
+    /home/app_user
+        /code
+            __init__.py
+            main.py                     <-- main
+            flowlog_parser.py           <-- Flow logs parser class implementations
+        /files
+            protocol-numbers-1.csv
+            biglogs.txt                 <-- flow logs file
+            mappings.csv                <-- port, protocol to tag mappings file
+            log.txt                     <-- program logs
+            output.txt                  <-- program output
+        requirements.txt
+        Dockerfile
+        README
+    
+## Build and Run Instructions
+1. docker build -t flowlogs_parser --rm . 
+2. docker run -it --name fl_app --rm flowlogs_parser
+3. Inside container:
+    - cd code
+    - ./main.py
+    - Check results in ../files/output.txt (also printed in stdout)
+    - Run UTs as follows: 
+        * cd 
+        * python3 ./test_flowlog_parser.py
+
+## Tests
+Other than the UTs the following tests were performed (all version 2).
+In all scenarios the program handles the error or exits graciously.
+
+1. Flow log lines having leading white space.
+2. Flow log lines with characters in protocol filed.
+3. Empty mappings file.
+4. Invalid entry in mappings file.
+5. Empty flow logs file.
