@@ -284,11 +284,13 @@ class DefaultFlowLogsParser(GenericFlowLogParser):
                     # typedef struct treenode {
                     #   unsigned short port_num;
                     #   protocol_list_t *head;
+                    #   struct treenode *left, *right;
                     # } treenode_t;
                     #
-                    # tyepedef struct protocol_list_t {
+                    # typedef struct protocol_list {
                     #   char *protocol_name;
                     #   char *tag;
+                    #   struct protocol_list *next, *prev;
                     # } protocol_list_t;
                     #
 
